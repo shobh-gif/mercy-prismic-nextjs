@@ -1,0 +1,215 @@
+{
+  "id": "homepage",
+  "label": "HomePage",
+  "format": "page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "navbar": {
+        "type": "Group",
+        "config": {
+          "label": "Navbar",
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "label",
+                "placeholder": ""
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "sitelogo": {
+        "type": "Group",
+        "config": {
+          "label": "SiteLogo",
+          "fields": {
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "link",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "logo": {
+              "type": "Image",
+              "config": {
+                "label": "logo",
+                "constraint": {},
+                "thumbnails": []
+              }
+            }
+          }
+        }
+      },
+      "contactus": {
+        "type": "Group",
+        "config": {
+          "label": "contactUs",
+          "fields": {
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "link",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "label",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "services": {
+        "type": "Group",
+        "config": {
+          "label": "Services",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": {
+                "label": "name",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "footer_logo": {
+        "type": "Image",
+        "config": {
+          "label": "Footer Logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "social_account_icons": {
+        "type": "Group",
+        "config": {
+          "label": "Social Account Icons",
+          "fields": {
+            "icon": {
+              "type": "Image",
+              "config": {
+                "label": "icon",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "socialmedialink": {
+              "type": "Link",
+              "config": {
+                "label": "socialMediaLink",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "footersection": {
+        "type": "Group",
+        "config": {
+          "label": "footerSection",
+          "fields": {
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "trusted_type": {
+              "type": "SharedSlice"
+            },
+            "services": {
+              "type": "SharedSlice"
+            },
+            "user_profile": {
+              "type": "SharedSlice"
+            },
+            "testimonial": {
+              "type": "SharedSlice"
+            },
+            "top_section": {
+              "type": "SharedSlice"
+            },
+            "our_services": {
+              "type": "SharedSlice"
+            },
+            "right_process": {
+              "type": "SharedSlice"
+            },
+            "tranform_ideas_section": {
+              "type": "SharedSlice"
+            },
+            "sets_apart": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      }
+    }
+  }
+}

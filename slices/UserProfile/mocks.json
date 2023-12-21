@@ -1,0 +1,74 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"textfieldname": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Quis adipisicing consequat eu sit culpa ut esse id do."
+						}
+					}
+				]
+			},
+			"userfield": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Est magna officia commodo eu laboris. Duis voluptate adipisicing enim incididunt pariatur laborum aliqua dolore adipisicing magna est eu ullamco aliquip nisi."
+						}
+					}
+				]
+			},
+			"profilepick": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e",
+					"width": 6000,
+					"height": 4000
+				},
+				"url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e",
+				"width": 6000,
+				"height": 4000,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"userinfo",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Deserunt ex amet pariatur tempor adipisicing nulla Lorem labore. Exercitation aliquip deserunt laborum."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]

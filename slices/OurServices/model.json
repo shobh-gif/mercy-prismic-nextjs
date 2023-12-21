@@ -1,0 +1,63 @@
+{
+  "id": "our_services",
+  "type": "SharedSlice",
+  "name": "OurServices",
+  "description": "OurServices",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "serviceimage": {
+          "type": "Image",
+          "config": {
+            "label": "serviceImage",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "serviceheading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "serviceheading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "servicesubheading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "servicesubheading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "paragraph1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "paragraph1",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "paragraph2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "paragraph2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      }
+    }
+  ]
+}

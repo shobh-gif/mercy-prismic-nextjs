@@ -1,0 +1,87 @@
+{
+  "id": "right_process",
+  "type": "SharedSlice",
+  "name": "RightProcess",
+  "description": "RightProcess",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "rightProcessImage": {
+          "type": "Image",
+          "config": {
+            "label": "rightProcessImage",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "rightProcessIcon": {
+          "type": "Image",
+          "config": {
+            "label": "rightProcessIcon",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "rightprocesstext1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "rightProcessText1",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "rightprocesstext2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "rightProcessText2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "leftprocessimage": {
+          "type": "Image",
+          "config": {
+            "label": "leftProcessImage",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "leftprocessicon": {
+          "type": "Image",
+          "config": {
+            "label": "leftProcessIcon",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "leftprocesstext1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "leftProcessText1",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "leftprocesstext2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "leftProcessText2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

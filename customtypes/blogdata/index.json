@@ -1,0 +1,101 @@
+{
+  "id": "blogdata",
+  "label": "BlogData",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "wearable": {
+        "type": "Group",
+        "config": {
+          "label": "Wearable",
+          "fields": {
+            "blogimage": {
+              "type": "Image",
+              "config": {
+                "label": "blogimage",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "blogdescription": {
+              "type": "Text",
+              "config": {
+                "label": "blogDescription",
+                "placeholder": ""
+              }
+            },
+            "blogcreatedate": {
+              "type": "Date",
+              "config": {
+                "label": "blogCreateDate",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "windows": {
+        "type": "Group",
+        "config": {
+          "label": "Windows",
+          "fields": {
+            "blogimage": {
+              "type": "Image",
+              "config": {
+                "label": "blogimage",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "blogdescription": {
+              "type": "Text",
+              "config": {
+                "label": "blogDescription",
+                "placeholder": ""
+              }
+            },
+            "blogcreatedate": {
+              "type": "Date",
+              "config": {
+                "label": "blogCreateDate",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "saas": {
+        "type": "Group",
+        "config": {
+          "label": "Saas",
+          "fields": {
+            "blogimage": {
+              "type": "Image",
+              "config": {
+                "label": "blogimage",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "blogdescription": {
+              "type": "Text",
+              "config": {
+                "label": "blogDescription",
+                "placeholder": ""
+              }
+            },
+            "blogcreatedate": {
+              "type": "Date",
+              "config": {
+                "label": "blogCreateDate",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

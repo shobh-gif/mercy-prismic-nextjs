@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"subheading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Mollit exercitation anim id laborum nulla cupidatat tempor duis aute veniam. Cupidatat dolore laborum anim velit dolore esse deserunt dolore eu qui."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

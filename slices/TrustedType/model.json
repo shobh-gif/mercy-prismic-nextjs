@@ -1,0 +1,27 @@
+{
+  "id": "trusted_type",
+  "type": "SharedSlice",
+  "name": "TrustedType",
+  "description": "TrustedType",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "trustedimage1": {
+          "type": "Image",
+          "config": {
+            "label": "trustedImage1",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      }
+    }
+  ]
+}

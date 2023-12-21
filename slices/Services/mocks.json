@@ -1,0 +1,52 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"servicetext",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Adipisicing ad eiusmod reprehenderit incididunt irure officia proident magna pariatur fugiat tempor nostrud consequat. Ullamco nulla sunt aute qui velit dolor amet reprehenderit velit mollit reprehenderit dolor ullamco eiusmod. Duis laboris do eu cillum laborum nostrud proident laboris culpa consequat."
+									}
+								}
+							]
+						}
+					],
+					[
+						"serviceimage",
+						{
+							"__TYPE__": "ImageContent",
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1593642633279-1796119d5482",
+								"width": 4016,
+								"height": 6016
+							},
+							"url": "https://images.unsplash.com/photo-1593642633279-1796119d5482",
+							"width": 4016,
+							"height": 6016,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"thumbnails": {}
+						}
+					]
+				]
+			}
+		]
+	}
+]

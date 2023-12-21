@@ -1,0 +1,60 @@
+{
+  "id": "navbar_data",
+  "type": "SharedSlice",
+  "name": "NavbarData",
+  "description": "NavbarData",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "textfield1": {
+          "type": "Text",
+          "config": {
+            "label": "textField1",
+            "placeholder": ""
+          }
+        },
+        "textfield2": {
+          "type": "Text",
+          "config": {
+            "label": "textField2",
+            "placeholder": ""
+          }
+        },
+        "textfield3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "textfield3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "textfield4": {
+          "type": "StructuredText",
+          "config": {
+            "label": "textfield4",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "textfield5": {
+          "type": "StructuredText",
+          "config": {
+            "label": "textField5",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

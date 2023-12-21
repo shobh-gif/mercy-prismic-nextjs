@@ -1,0 +1,58 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"processtextfield",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Voluptate pariatur ullamco amet."
+									}
+								}
+							]
+						}
+					],
+					[
+						"processdescriptionfield",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Culpa sit Lorem eiusmod exercitation labore ut deserunt laborum aliquip sunt nulla. Nostrud proident amet et."
+									}
+								}
+							]
+						}
+					],
+					[
+						"colorclassname",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "piano",
+							"type": "Text"
+						}
+					],
+					[
+						"index",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "inch",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

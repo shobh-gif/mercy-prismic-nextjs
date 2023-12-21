@@ -1,0 +1,36 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"topheading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Cupidatat cupidatat irure in magna ex mollit officia excepteur nostrud adipisicing."
+						}
+					}
+				]
+			},
+			"subheading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Id amet officia fugiat nulla magna reprehenderit nostrud quis veniam et voluptate Lorem ad sit sit. Sint laborum aliqua elit esse fugiat excepteur. Amet cillum reprehenderit proident."
+						}
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]
